@@ -1,0 +1,80 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orders</title>
+    <link rel="stylesheet" href="orderstyle.css" />
+    <script>
+      function fVerifyInput(evt) {
+        var inputChar;
+        if (evt.which) {
+          inputChar = evt.which;
+        } else {
+          inputChar = evt.keyCode;
+        }
+        if (inputChar >= 48 && inputChar <= 57) {
+          return true;
+        }
+        {
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td>VEGETABLES</td>
+          <td>
+            <select name="VEGETABLES" id="VEGETABLES">
+              <option value="none">--select--</option>
+              <option value="carrot">Carrot</option>
+              <option value="corn">Corn</option>
+              <option value="mushroom">Mushroom</option>
+              <option value="pepper">Pepper</option>
+              <option value="tomato">Tomato</option>
+            </select>
+          </td>
+          <td class="cellcontainer"><input type="text" onpaste="return false;" onkeypress="return fVerifyInput(event);" maxlength="3" size="3" placeholder="999" /></td>
+        </tr>
+        <tr>
+          <td>FRUITS</td>
+          <td>
+            <select name="FRUITS" id="FRUITS">
+              <option value="none">--select--</option>
+              <option value="apple">Apple</option>
+              <option value="banana">Banana</option>
+              <option value="grapes">Grapes</option>
+              <option value="orange">Orange</option>
+              <option value="strawberry">Strawberry</option>
+            </select>
+          </td>
+          <td class="cellcontainer"><input type="text" onpaste="return false;" onkeypress="return fVerifyInput(event);" maxlength="3" size="3" placeholder="999" /></td>
+        </tr>
+        <tr>
+          <td>OTHERS</td>
+          <td>
+            <select name="OTHERS" id="OTHERS">
+              <option value="none">--select--</option>
+              <option value="bread">Bread</option>
+              <option value="burguer">Burguer</option>
+              <option value="Cheese">Cheese</option>
+              <option value="pie">Pie</option>
+              <option value="pizza">Pizza</option>
+            </select>
+          </td>
+          <td class="cellcontainer"><input type="text" onpaste="return false;" onkeypress="return fVerifyInput(event);" maxlength="3" size="3" placeholder="999" /></td>
+        </tr>
+        <tr>
+          <td id="corner"></td>
+          <td class="cellcontainer"><button accesskey="r" onclick="alert('Thank You For Your Bussiness :)');" tabindex="1" title="Complete Your Order">ORDER NOW</button></td>
+          <td class="cellcontainer"><button accesskey="c" onclick=" alert('Sorry To Hear That :( ');" tabindex="1" title="Cancel Your Order">CANCEL</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
