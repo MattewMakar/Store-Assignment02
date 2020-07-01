@@ -10,5 +10,5 @@ using :
   - Deploy using Github pages
   
  ## URL link
- https://mattewmakar.github.io/gallery-project/.
+ https://mattewmakar.github.io/Store-Assignment02/
 
