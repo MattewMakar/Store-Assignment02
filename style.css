@@ -44,7 +44,7 @@ ul {
 li {
   list-style: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: bolder;
   color: aliceblue;
   padding: 5px 40px;
@@ -100,7 +100,7 @@ iframe {
 }
 #contact {
   margin-left: 50px;
-  font-family: fantasy;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
   color: #006d77;
 }
@@ -156,12 +156,12 @@ h6 {
 }
 #ordertable td {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 17px;
   border: 3px solid;
   font-weight: bolder;
   border-radius: 10px;
   padding: 10px;
-  width: 10vw;
+  width: 15vw;
   background-color: #006d77;
   color: aliceblue;
 }
