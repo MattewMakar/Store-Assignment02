@@ -65,7 +65,7 @@ a {
   font-size: 0px;
   font-family: monospace;
   word-spacing: 4px;
-  transition: font-size 1s, font-weight 1s;
+  transition: font-size .5s, font-weight .5s;
 }
 li:hover
 {
