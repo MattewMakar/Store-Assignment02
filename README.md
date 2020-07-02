@@ -5,6 +5,8 @@ Browser tested on
 * Fire fox on Windows and mac
 * google chrome on windows and mac
 * safari in mac 
+Screen size
+21 inch & 15 inch & 13.5 inch 
 using :
   - HTML
   - CSS
