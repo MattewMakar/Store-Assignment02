@@ -67,6 +67,10 @@ a {
   word-spacing: 4px;
   transition: font-size 1s, font-weight 1s;
 }
+li:hover
+{
+  background-image:linear-gradient(to right , #239397 , #0d5f66);
+}
 li:hover a {
   color: aliceblue;
 }
@@ -74,6 +78,7 @@ li:hover a {
 header:hover h1 {
   padding-right: 50vw;
   padding-left: 0;
+  color: #a24317;
 }
 header:hover #message {
   font-size: 20px;
@@ -150,7 +155,7 @@ h6 {
 }
 #ordertable {
   text-align: center;
-  margin: 150px auto;
+  margin: 10vh auto;
   border-spacing: 40px;
 }
 #ordertable td {
